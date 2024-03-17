@@ -1,0 +1,11 @@
+author Reid is {
+  name: "Reid Spencer"
+  email: "reid@ossuminc.com"
+} described as "Primary Author"
+domain TLO is {
+  by author Reid
+  include "county/CountyContext.riddl"
+  include "application/TLOApp.riddl"
+  include "epics/find-tlc.riddl"
+} briefly "Primary domain for everything about the Tax Lien Optimizer"
+described in file "TLO.md"
